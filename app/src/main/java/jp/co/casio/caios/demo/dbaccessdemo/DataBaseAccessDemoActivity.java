@@ -173,7 +173,7 @@ public class DataBaseAccessDemoActivity extends Activity implements View.OnClick
 
 			// 検索条件 取得
 			et = (EditText) mActivity.findViewById(R.id.editText_selection);
-			selection = et.getText().toString();
+			selection =  "BIZDATE = '" + et.getText().toString() + "'";
 			if (selection.length() == 0) {
 				selection = null;
 			}

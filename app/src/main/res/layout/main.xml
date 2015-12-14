@@ -48,8 +48,8 @@
             android:singleLine="true"
             android:layout_width="376dp"
             android:layout_height="wrap_content"
-            android:text="BIZDATE=&apos;20151211&apos;"
-            android:layout_weight="0.27">
+            android:layout_weight="0.27"
+            android:hint="20151211">
 
             <requestFocus />
 
